@@ -1,0 +1,100 @@
+/* top index */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.top{
+    background-color: red;
+    width: 100%;
+    height: fit-content;
+    margin-top: 0%;
+}
+.top-div{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+}
+.logo-div .title-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title-text{
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    grid-column: 2;
+    grid-row: 1;
+    width: fit-content;
+}
+.logo-div{
+
+    grid-column: 1;
+    grid-row: 1;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    margin-left: 30px;
+}
+.button-div{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    display: inline-block;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+.menu-div{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    grid-column: 3;
+    grid-row: 1;
+}
+.menu{
+    float: right;
+    background-color: transparent;
+    border-color: transparent;
+    width: fit-content;
+    height: fit-content;
+}
+.button-div:hover{
+    background-color: red;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    transition: all 0.5s ease-out;
+}
+.button-div:hover .dropdown{
+    display:inline-block;
+    position: absolute;
+    top: 100%;
+    right: 2%;
+}
+.dropdown{    
+    display: none;
+    position: absolute;
+    max-width: fit-content;        
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    float: right;
+    transition: all 0.5s ease-out; /* Add transition */
+}
+.dropdown a{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid rgb(142, 142, 142);
+    transition: all 0.3s ease-out; /* Add transition */
+}
+
+.dropdown a:hover{
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    background-color: rgb(255, 99, 99);
+}
