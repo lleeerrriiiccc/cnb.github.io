@@ -117,7 +117,7 @@ html{
     font-weight: bolder;
     }
         
-.carnet-row caption {
+.carnet-caption{
     background-color: rgb(250, 158, 77);
     border:1px solid black;
     text-align: center;
