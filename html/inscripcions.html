@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="icon" type="image/x-icon" href="./../resources/images-removebg-preview.png">
+    <link rel="icon" type="image/x-icon" href="./.././../resources/images-removebg-preview.png">
 </head>
 <html>
     <section class="top">
@@ -16,18 +16,21 @@
                 <a class="title-text" href="./../index.html">Club Natacio Blanes</a>
             </div>
             <div class="menu-div">
+                <a class="menu-option" href="./galeria.html">Galeria</a>
+                <a class="menu-option" href="./galeria.html">Qui som</a>
+                <a class="menu-option" href="./galeria.html">Contacte</a>
                 <div class="button-div">
-                    <button class="menu"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <button class="menu"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
                         </svg>
                     </button>
                 
                 
                 <div class="dropdown">
-                    <a href="carnet_piscina.html">Carnet de piscina</a>
-                    <a href="horaripiscina.html">Horari de piscina</a> 
-                    <a href="inscripcions.html">Inscripcions</a>
-                    <a href="activitats.html">Activitats</a>
+                    <a href="./carnet_piscina.html">Carnet de piscina</a>
+                    <a href="./horaripiscina.html">Horari de piscina</a> 
+                    <a href="./inscripcions.html">Inscripcions</a>
+                    <a href="./activitats.html">Activitats</a>
                 </div>
                 </div>
             </div>
@@ -43,11 +46,11 @@
             <div class="mid-div-mid">
                 <h1 class="text-header">
                     Inscripcions</h1>
-                <pre class="text">
+                <pre class="text-black">
                     Si vols formar part del nostre club, no dubtis en posar-te en contacte amb nosaltres.
                     Ens trobem situats a la ciutat esportiva de Blanes.
                 </pre>
-                <pre>Per solicitar plaça omple el seguent formulari.</pre>
+                <pre class="text-black">Per solicitar plaça omple el seguent formulari.</pre>
                 <div class="form"></div>
                 <form class="form-inscripcions" action="redirect.html" method="POST">
                     <label for="nom">Nom:</label>
@@ -61,7 +64,19 @@
                     <label for="telefon">Telèfon:</label>
                     <input type="text" id="telefon" name="telefon" required>
                     <label for="data">Data de naixement:</label>
-                    <input type="date" id="data" name="data" required>                    
+                    <input type="date" id="data" name="data" required>  
+                    <label for="activitat">Activitat que vol fer</label>
+                    <select form="form-inscripcions">
+                        <option value="selecio">--Seleciona una activitat--</option>
+                        <option value="natacio">Natació recretiva</option>    
+                        <option value="aquagym">Aquagym</option>
+                        <option value="nataciosincronitzada">Natació sincronitzada</option>
+                        <option value="waterpolo">Waterpolo</option>
+                        <option value="trampoli">Trampolí</option>
+                        <option value="saltdeplataforma">Salt de plataforma</option>
+                        <option value="equip de competicio">Equip de competicio</option>
+                        <option value="Formacio de socorrisme">Formació de socorrisme</option>
+                    </select>               
                     <button onclick="" class="send-button" type="submit" class="submit"><i class="bi bi-send-fill"></i></button>
             </div>
             <div class="mid-div-right">
@@ -70,9 +85,9 @@
     </section>
     <section class="bottom">
         <div class="bottom-div">
-                <pre class="text">
+                <pre class="text-white">
                     Telèfon: 972 35 00 00
-                    Correu:
+                    Correu: informacio@clubnatacioblanes.com
         </div>
     </section>
 </html>
