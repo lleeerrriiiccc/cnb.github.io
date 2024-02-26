@@ -1,151 +1,9 @@
-.time-capt{
-    border: 1px solid black;
-    background-color: rgb(255, 210, 151);
-    border-collapse: collapse;
-    font-family: verdana;
-    font-weight: 1000;
-    font-size: 25px;
-}
-.time-table{
-    margin-top: 5%;
-    margin-left: 4%;
-    border: 1px solid black;
-    background-color: rgb(255, 210, 151);
-    border-collapse: collapse;
-    font-family: verdana;
-    font-weight: 100;
-}
 
-.dia{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    font-weight: 1000;
-}
-.time-table th:hover{
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-}
-.time-table{
-    column-width: 20%;
-}
-.hora{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    font-weight: 100;
-}
-.aquagym{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    background-color: rgb(102, 162, 251);
-    font-weight: 100;
-
-}
-.nataciosincronitzada{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    background-color: rgb(247, 173, 75);
-    font-weight: 100;
-}
-.nataciodecompeticio{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    background-color: rgb(230, 98, 98);
-    font-weight: 100;
-}
-.trampoli{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    background-color: rgb(255, 187, 139);
-    font-weight: 100;
-}
-.saltdeplataforma{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    background-color: rgb(255, 234, 128);
-    font-weight: 100;
-}
-.nataciorecreativa{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    background-color: rgb(144, 220, 255);
-    font-weight: 100;
-}
-.waterpolo{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    background-color: rgba(104, 245, 245, 0.552);
-    font-weight: 100;
-}
-.manteniment{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    background-color: rgb(250, 116, 143);
-    font-weight: 100;
-}
-.formaciosocorrisme{
-    border: 1px solid black;
-    font-size: 1.2rem;
-    background-color: aquamarine;
-    font-weight: 100;
-}
-.blanc{
-    border: 0px solid black;
-    font-size: 1.3rem;
-    font-weight: 100;
-    
-}
-.descanspersonal{
-    border: 1px solid black;
-    font-size: 1.3rem;
-    background-color: rgb(173, 236, 131);
-    font-weight: 100;
-}
 html{
     background-color:white;
     font-family: verdana;
 }
-.carnet-table{
-    background-color: rgb(249, 192, 143);
-    border:1px solid black;
-    border-spacing: 0.1rem;
-    margin-top:2rem;
-    width: 80%; 
-    margin-left: 1.5rem;
-}
-.carnet-row th{
-    background-color: rgb(249, 192, 143);
-    border: 0.1rem solid black;
-    border-spacing: 2.3rem;
-    font-family: verdana;
-    font-size: 1.3rem;
-    font-weight: bolder;
-    }
-        
-.carnet-caption{
-    background-color: rgb(250, 158, 77);
-    border:1px solid black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-.carnet-row td{
-            
-    text-align: center;
-    background-color: rgb(255, 220, 190);
-    border:1px solid black;
-    color: black;
-    font-family: verdana;
-    font-size: 15px;
-    font-weight: lighter;
-}
-.carnet-row select{
-            
-    background-color: rgb(255, 220, 190);
-    border:1px solid black;
-    color: black;
-    font-family: verdana;
-    font-size: 100%;
-    font-weight: lighter;  
-}
+
 /* top index */
 .index-body{
     width: 100%;
@@ -276,12 +134,9 @@ html{
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
     background-color: rgb(255, 99, 99);
 }
-.time-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
+
 .mid{
+    height: 100%;
     background-color: transparent;
 }
 .mid-div{
@@ -303,13 +158,7 @@ html{
     grid-row: 1;
     background-color: white;
 }
-.mid-div-mid-carnet{
-    width: 100%;
-    height: 100%;
-    grid-column: 2/6;
-    grid-row: 1;
-    background-color: transparent;
-}
+
 .mid-div-rigth{
     grid-column: 6; 
     grid-row: 1;
@@ -341,6 +190,13 @@ html{
     font-size: 1.3rem;
     font-weight: bold;
 }
+.bottom-text a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
 .text-white{
     font-family: Arial, Helvetica, sans-serif;
     text-align: start;
@@ -362,49 +218,4 @@ html{
     padding: 1rem;
     border: 0;
 }
-.form-inscripcions{
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    width: fit-content;
-}
-.send-button{
-    width: fit-content;
-    height: fit-content;
-    background-color: rgb(255, 94, 0);
-    color: white;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.send-button1{
-    opacity: 0;
-}
-.send-button:hover{
-    background-color: rgb(255, 99, 99);
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-    transition: all 0.5s ease-out;
-}
-.send-button i{
-    margin: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: fit-content;
-    height: fit-content;
-}
-.activitats-table{
-    width: 100%;
-    height: fit-content;
-    border:1px solid black;
-    border-spacing: 1px;
-}
-.activitats-table th,tr,td{
-    border:1px solid black;
-    font-family: verdana;
-    text-align: center;
-}
-.activitats-table td{
-    font-size: 15px;
-    font-family: Verdana;
-}
+

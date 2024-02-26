@@ -1,0 +1,15 @@
+.activitats-table{
+    width: 100%;
+    height: fit-content;
+    border:1px solid black;
+    border-spacing: 1px;
+}
+.activitats-table th,tr,td{
+    border:1px solid black;
+    font-family: verdana;
+    text-align: center;
+}
+.activitats-table td{
+    font-size: 15px;
+    font-family: Verdana;
+}

@@ -1,0 +1,106 @@
+.time-capt{
+    border: 1px solid black;
+    background-color: rgb(255, 210, 151);
+    border-collapse: collapse;
+    font-family: verdana;
+    font-weight: 1000;
+    font-size: 25px;
+}
+.time-table{
+    margin-top: 5%;
+    margin-left: 4%;
+    border: 1px solid black;
+    background-color: rgb(255, 210, 151);
+    border-collapse: collapse;
+    font-family: verdana;
+    font-weight: 100;
+}
+
+.dia{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    font-weight: 1000;
+}
+.time-table th:hover{
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.time-table{
+    column-width: 20%;
+}
+.hora{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.aquagym{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: rgb(102, 162, 251);
+    font-weight: 100;
+
+}
+.nataciosincronitzada{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: rgb(247, 173, 75);
+    font-weight: 100;
+}
+.nataciodecompeticio{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: rgb(230, 98, 98);
+    font-weight: 100;
+}
+.trampoli{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: rgb(255, 187, 139);
+    font-weight: 100;
+}
+.saltdeplataforma{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: rgb(255, 234, 128);
+    font-weight: 100;
+}
+.nataciorecreativa{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: rgb(144, 220, 255);
+    font-weight: 100;
+}
+.waterpolo{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: rgba(104, 245, 245, 0.552);
+    font-weight: 100;
+}
+.manteniment{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: rgb(250, 116, 143);
+    font-weight: 100;
+}
+.formaciosocorrisme{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    background-color: aquamarine;
+    font-weight: 100;
+}
+.blanc{
+    border: 0px solid black;
+    font-size: 1.3rem;
+    font-weight: 100;
+    
+}
+.descanspersonal{
+    border: 1px solid black;
+    font-size: 1.3rem;
+    background-color: rgb(173, 236, 131);
+    font-weight: 100;
+}
+.time-body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
